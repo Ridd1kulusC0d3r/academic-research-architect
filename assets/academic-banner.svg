@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="380" viewBox="0 0 1280 380" role="img" aria-label="Academic Research Architect. Evidence, Method, Validation, Publication.">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0B1426"/><stop offset=".6" stop-color="#132C40"/><stop offset="1" stop-color="#091824"/></linearGradient>
+    <linearGradient id="stroke" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#65DACB"/><stop offset="1" stop-color="#D5AE72"/></linearGradient>
+    <pattern id="dots" width="25" height="25" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#63BFB6" opacity=".11"/></pattern>
+  </defs>
+  <rect width="1280" height="380" fill="url(#bg)"/>
+  <rect width="1280" height="380" fill="url(#dots)"/>
+  <path d="M0 300 C240 245 300 370 540 300S930 180 1280 250" fill="none" stroke="#3EAAB0" stroke-width="1.5" opacity=".2"/>
+  <g transform="translate(925 187)">
+    <circle r="130" fill="none" stroke="#70CBBE" stroke-width="1" opacity=".18"/>
+    <circle r="96" fill="none" stroke="#D6AE73" stroke-width="1.5" opacity=".34"/>
+    <circle r="62" fill="none" stroke="#69CCBF" stroke-width="2" opacity=".65"/>
+    <path d="M-96 0 L-32 -48 L44 -48 L96 0 L42 55 L-32 48 Z M-32 -48 L0 0 L42 55 M44 -48 L0 0 L-32 48 M-96 0 L0 0 L96 0" fill="none" stroke="url(#stroke)" stroke-width="2.2" opacity=".95"/>
+    <g fill="#D7B67D"><circle cx="-96" r="6"/><circle cx="96" r="6"/><circle cx="44" cy="-48" r="6"/><circle cx="42" cy="55" r="6"/><circle cx="-32" cy="-48" r="6"/><circle cx="-32" cy="48" r="6"/></g>
+    <circle r="11" fill="#75D8CD"/><circle r="4" fill="#092332"/>
+  </g>
+  <rect x="70" y="69" width="197" height="30" rx="15" fill="#2B4B56"/>
+  <text x="91" y="89" fill="#8AE0D5" font-family="Arial, sans-serif" font-size="14" font-weight="bold" letter-spacing="2">RESEARCH SYSTEM</text>
+  <text x="67" y="167" fill="#F5F5F0" font-family="Georgia,serif" font-size="54" font-weight="bold">Academic Research</text>
+  <text x="67" y="226" fill="#F5F5F0" font-family="Georgia,serif" font-size="54" font-weight="bold">Architect</text>
+  <rect x="70" y="245" width="77" height="3" fill="#D7B67D"/>
+  <text x="70" y="285" fill="#B9D0D5" font-family="Arial,sans-serif" font-size="18" letter-spacing="1">EVIDENCE  /  METHOD  /  VALIDATION  /  PUBLICATION</text>
+  <text x="71" y="335" fill="#81B0B9" font-family="Arial,sans-serif" font-size="14">An open academic research skill · v1.0.0</text>
+</svg>
+

@@ -1,0 +1,27 @@
+name: Validate Agent Skill
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Validate structure
+        run: python scripts/validate_skill.py
+      - name: Test ZIP packaging
+        run: python -m unittest discover -s tests -v
+      - name: Publish ZIP as workflow artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: academic-research-architect-skill
+          path: dist/academic-research-architect.zip
+          if-no-files-found: error
+
